@@ -1,0 +1,60 @@
+/// use script
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyDxdkqfZ0XD9955PcsjsVgRSYjc59UOGAI",
+    authDomain: "malshahmeh.firebaseapp.com",
+    projectId: "malshahmeh",
+    storageBucket: "malshahmeh.appspot.com",
+    messagingSenderId: "902583588470",
+    appId: "1:902583588470:web:32fd1cc67fa0c396e63157",
+    measurementId: "G-E9YQN74B9Z"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+/// end use script
+
+
+/// use npm
+npm install firebase
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyDxdkqfZ0XD9955PcsjsVgRSYjc59UOGAI",
+  authDomain: "malshahmeh.firebaseapp.com",
+  projectId: "malshahmeh",
+  storageBucket: "malshahmeh.appspot.com",
+  messagingSenderId: "902583588470",
+  appId: "1:902583588470:web:32fd1cc67fa0c396e63157",
+  measurementId: "G-E9YQN74B9Z"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
+npm install -g firebase-tools
+
+firebase login
+
+firebase init
+
+firebase deploy
+/// end use npm
